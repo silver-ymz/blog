@@ -11,6 +11,6 @@ categories: begin
 
 $$\LaTeX \\ a^2+b^2=c^2$$
 
-$$\forall f \in \R^{\R}, \lim\limits_{x\rightarrow x_0} f(x) = A := \forall \varepsilon \in \R^+,\exist \delta\in\R^+,\forall x \in \R, |x - x_0|<\delta \Rightarrow |f(x)-A|<\varepsilon $$
+$$\forall f \in \R^{\R}, \lim\limits_{x\rightarrow x_0} f(x) = A := \forall \varepsilon \in \R^+,\exist \delta\in\R^+,\forall x \in \R, 0<|x - x_0|<\delta \Rightarrow |f(x)-A|<\varepsilon $$
 
 ## 可能会随缘更新
