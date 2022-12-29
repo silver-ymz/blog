@@ -103,7 +103,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/silver-ymz/silver-ymz.github.io
+  repo: https://github.com/silver-ymz/blog
   branch: pages
 
 asset_pipeline:
