@@ -178,7 +178,8 @@ links_settings:
   layout: block
 
 links:
-  #Title: https://example.com
+  Notebook: https://note.ymzymz.me
+  Pixia's blog: https://blogs.pixia.tech
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
