@@ -44,3 +44,4 @@ jobs:
           projectName: 'blog'
           directory: 'public'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        alias: https://blog.ymzymz.me
