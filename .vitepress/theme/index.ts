@@ -1,6 +1,7 @@
 import DefaultTheme from "vitepress/theme-without-fonts";
 import Archives from "./components/Archives.vue";
 import Tags from "./components/Tags.vue";
+import Links from "./components/Links.vue";
 import MyLayout from "./components/MyLayout.vue";
 import "./custom.css";
 
@@ -13,5 +14,6 @@ export default {
     // register global components
     app.component("Archives", Archives);
     app.component("Tags", Tags);
+    app.component("Links", Links);
   },
 };

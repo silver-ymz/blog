@@ -47,6 +47,16 @@ async function config() {
       docsDir: "/",
       // docsBranch: "master",
       posts: await getPosts(),
+      links: [
+        {
+          name: "Notebook",
+          link: "https://note.ymzymz.me",
+        },
+        {
+          name: "Pixia's Blog",
+          link: "https://blog.pixia.tech",
+        },
+      ],
       pageSize: 5,
       postLength: await getPostLength(),
       nav: [
@@ -61,6 +71,10 @@ async function config() {
         {
           text: "📃Archives",
           link: "/archives",
+        },
+        {
+          text: "🤶Links",
+          link: "/links",
         },
         {
           text: "🔥RSS",
