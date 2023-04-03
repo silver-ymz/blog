@@ -3,7 +3,7 @@
 </template>
 <script lang="ts" setup>
 import { onMounted } from "vue";
-import lottie from "lottie-web";
+import lottie from "lottie-web/build/player/lottie_light.min.js";
 onMounted(() => {
   // storage lottie
   const svgContainer = document.getElementById("svgContainer");
@@ -22,7 +22,7 @@ onMounted(() => {
     container: insertNode,
     renderer: "svg",
     loop: true,
-    path: "https://labs.nearpod.com/bodymovin/demo/markus/isometric/markus2.json",
+    path: "/markus.json",
   });
 });
 </script>

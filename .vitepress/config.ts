@@ -1,5 +1,8 @@
 import { getPosts, getPostLength } from "./theme/serverUtils";
 import { buildBlogRSS } from "./theme/rss";
+import mathjax3 from 'markdown-it-mathjax3';
+
+const customElements = ['mjx-container'];
 
 async function config() {
   return {
@@ -12,7 +15,7 @@ async function config() {
         {
           rel: "icon",
           type: "image/svg",
-          href: "/horse.svg",
+          href: "/crab.svg",
         },
       ],
       [
@@ -78,6 +81,18 @@ async function config() {
       ],
       // outline: 2, //设置右侧aside显示层级
       aside: false,
+    },
+    markdown: {
+      config: (md) => {
+        md.use(mathjax3);
+      },
+    },
+    vue: {
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => customElements.includes(tag),
+        },
+      },
     },
     buildEnd: buildBlogRSS,
   };
