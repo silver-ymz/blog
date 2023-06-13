@@ -31,8 +31,8 @@ devDependencies:
     specifier: ^4.0.3
     version: 4.0.3
   lottie-web:
-    specifier: ^5.10.2
-    version: 5.10.2
+    specifier: ^5.12.2
+    version: 5.12.2
   markdown-it:
     specifier: ^13.0.1
     version: 13.0.1
@@ -1073,8 +1073,8 @@ packages:
       uc.micro: 1.0.6
     dev: true
 
-  /lottie-web@5.10.2:
-    resolution: {integrity: sha512-d0PFIGiwuMsJYaF4uPo+qG8dEorlI+xFI2zrrFtE1bGO4WoLIz+NjremxEq1swpR7juR10aeOtmNh3d6G3ub0A==}
+  /lottie-web@5.12.2:
+    resolution: {integrity: sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==}
     dev: true
 
   /magic-string@0.30.0:
