@@ -1,10 +1,10 @@
 <template>
   <div class="shareCard">
     <h1 class="title">
-      <span>Hi, I'm ymz 👋</span>
+      <span>Hi, I'm salvor 👋</span>
     </h1>
     <p class="description">
-      A normal student who likes super mario.
+      A normal student learning computer science
     </p>
   </div>
 </template>

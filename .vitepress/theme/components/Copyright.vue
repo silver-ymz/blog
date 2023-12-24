@@ -3,7 +3,7 @@
     Powered by
     <a href="https://vitepress.dev/" target="_blank">VitePress</a>
     (templated by <a href="https://github.com/clark-cui/vitepress-blog-zaun" target="_blank">clark-cui</a>)
-    | Copyright © 2019-{{ date }} | MIT License
+    | Copyright © 2021-{{ date }} | MIT License
   </footer>
 </template>
 <script lang="ts" setup>

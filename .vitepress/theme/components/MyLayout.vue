@@ -9,13 +9,13 @@
     <template #home-features-after> <Page /></template>
   </Layout>
   <!-- copywright -->
-  <CopyWright />
+  <Copyright />
 </template>
 <script lang="ts" setup>
 import DefaultTheme from "vitepress/theme";
 const { Layout } = DefaultTheme;
 import HomeHero from "./HomeHero.vue";
-import CopyWright from "./CopyWright.vue";
+import Copyright from "./Copyright.vue";
 import Page from "./Page.vue";
 import Category from "./Category.vue";
 import Title from "./Title.vue";

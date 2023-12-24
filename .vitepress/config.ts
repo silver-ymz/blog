@@ -7,8 +7,8 @@ const customElements = ['mjx-container'];
 async function config() {
   return {
     lang: "zh-CN",
-    title: "ymz blog",
-    description: "ymz's personal blog",
+    title: "salvor blog",
+    description: "salvor's personal blog",
     head: [
       [
         "link",
@@ -36,7 +36,7 @@ async function config() {
         "meta",
         {
           property: "og:description",
-          content: "Home of salvor",
+          content: "Home of blog",
         },
       ],
     ],
@@ -77,6 +77,10 @@ async function config() {
           link: "/links",
         },
         {
+          text: "📚About",
+          link: "https://ymzymz.me",
+        },
+        {
           text: "🔥RSS",
           link: "https://blog.ymzymz.me/feed.xml",
         },
@@ -100,6 +104,7 @@ async function config() {
       config: (md) => {
         md.use(mathjax3);
       },
+      theme: { light: 'solarized-light', dark: 'solarized-dark' },
     },
     vue: {
       template: {
